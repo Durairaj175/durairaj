@@ -1,0 +1,164 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: auto;
+    padding: 50px 0;
+}
+
+/* Header */
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: #000000ec;
+    font-weight: bold;
+}
+
+.btn {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Home Section */
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-img img {
+    width: 100px;
+    height: 300px;
+    border-radius: 10px;
+    border: 5px solid #ff5733;
+}
+
+.home-text {
+    text-align: left;
+    width: 50%;
+}
+
+.home-text h3 {
+    color: #111;
+    font-size: 26px;
+}
+
+
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-img img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #ff5733;
+}
+
+.about-text {
+    text-align: left;
+    width: 50%;
+}
+
+.about-text h3 {
+    color: #111;
+    font-size: 26px;
+}
+
+/* Working Process Section */
+.process-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.process-text {
+    text-align:left;
+    width: 50%;
+}
+
+.process-img img {
+    width: 350px;
+    border-radius: 10px;
+    border: 5px solid #ff5733;
+    
+}
+
+/* Statistics Section */
+.stats {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.stats-box {
+    text-align: center;
+}
+
+.stats-box h3 {
+    font-size: 30px;
+    color: #ff5733;
+}
+
+/* Contact Section */
+.contact {
+    background: #000000;
+    color: white;
+    padding: 50px 0;
+}
+
+.contact {
+    display: flex;
+    margin: 10px;
+    color: white;
+    text-decoration:none;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
